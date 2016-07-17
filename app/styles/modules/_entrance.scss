@@ -1,0 +1,56 @@
+
+@-webkit-keyframes enter {
+	0% {
+		//opacity: 0;
+		-webkit-transform: translateY(-100px);
+	}
+	100% {
+		//opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+@keyframes enter {
+	0% {
+		//opacity: 0;
+		transform: translateY(-100px);
+	}
+	100% {
+		//opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.enter {
+	@include animate-prefixer(animation-name, enter);
+}
+
+@-webkit-keyframes twist {
+	0% {
+		@include transform(rotate(0deg));
+	}
+	50% {
+		opacity: 0.275;
+	}
+	100% {
+		opacity: 1;
+		@include transform(rotate(-10deg));
+	}
+}
+
+@keyframes twist {
+	0% {
+		@include transform(rotate(0deg));
+	}
+	50% {
+		opacity: 0.275;
+	}
+	100% {
+		opacity: 1;
+		@include transform(rotate(-10deg));
+	}
+}
+
+.twist {
+	@include animate-prefixer(animation-name, twist);
+}

@@ -1,0 +1,39 @@
+{
+	"projects": [
+		{
+			"name": "Netflix",
+			"url": "http://www.netflix.com/",
+			"img": "../images/Netflix_logo.png"
+		},
+		{
+			"name": "Alley",
+			"url": "http://www.alleynyc.com/",
+			"img": "../images/Alley.png"
+		},
+		{
+			"name": "OITNB",
+			"url": "http://www.oitnb.com/",
+			"img": "../images/Oitnb.png"
+		},
+		{
+			"name": "Las Vegas",
+			"url": "http://www.lasvegas.com/",
+			"img": "../images/lasvegas-logo.png"
+		},
+		{
+			"name": "Alley",
+			"url": "http://www.alleynyc.com/",
+			"img": "../images/Alley.png"
+		},
+		{
+			"name": "Alley",
+			"url": "http://www.alleynyc.com/",
+			"img": "../images/Alley.png"
+		},
+		{
+			"name": "Alley",
+			"url": "http://www.alleynyc.com/",
+			"img": "../images/Alley.png"
+		}
+	]
+}

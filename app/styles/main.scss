@@ -1,0 +1,48 @@
+@import "modules/fonts";
+$icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/lightingfly/_lighting_fly.scss";
+@import "../../bower_components/animate-sass/_animate.scss";
+// endbower
+
+@import 'modules/variables';
+@import 'modules/mixins';
+@import 'modules/layout';
+@import "modules/top_nav";
+@import "modules/entrance";
+@import "modules/projects";
+@import "modules/flyover";
+@import "modules/main";
+
+
+
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+	@include box-sizing(border-box);
+}
+
+html, body {
+	/* important for the full-width image to work */
+	height: 100%;
+}
+
+body {
+	font: {
+		size: 100%;
+		family: $primary-font; // variables inside partials > _variables.scss
+	}
+	background-color: $background;
+}
+
+a {
+	color: $color-4;
+	text-decoration: none;
+}
+
+

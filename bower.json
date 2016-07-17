@@ -1,0 +1,10 @@
+{
+  "name": "itshansen",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6",
+    "jquery": "~2.1.4",
+    "lightingfly": "~0.2.1",
+    "animate-sass": "^0.6.6"
+  }
+}
